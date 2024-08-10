@@ -55,7 +55,7 @@ struct HomeView: View {
                             Text(tab.1)
                                 .font(.system(size: 9))
                         }
-                        .foregroundColor(selectedTab == tab.1 ? Color("mainColor") : Color("subColor"))
+                        .foregroundColor(selectedTab == tab.1 ? Color("turquoise") : Color("subColor"))
                     }
                     .frame(maxWidth: .infinity)
                 }
