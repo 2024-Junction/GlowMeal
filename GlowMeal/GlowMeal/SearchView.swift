@@ -19,12 +19,12 @@ struct SearchView: View {
                 Text("Nutrition Info")
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .foregroundColor(hasSearched ? Color("mainColor") : .black)
+                    .foregroundColor(hasSearched ? Color("turquoise") : .black)
 
                 Text("Finder")
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .foregroundColor(hasSearched ? Color("mainColor") : .black)
+                    .foregroundColor(hasSearched ? Color("turquoise") : .black)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.leading, 20)
