@@ -8,14 +8,14 @@ import SwiftUI
 
 struct HomeView: View {
     // 현재 선택된 탭을 추적하는 변수
-    @State private var selectedTab: String = "Search"
+    @State private var selectedTab: String = "Main"
     
     // 각 탭의 정보를 담은 배열
     let tabs = [
-        ("calendar", "Main"),
-        ("magnifyingglass", "Search"),
-        ("chart.line.uptrend.xyaxis", "Analysis"),
-        ("person", "MyPage")
+        ("Main_tabicon", "Main"),
+        ("Nutrition_tabicon", "Nutrition"),
+        ("Analysis_tabicon", "Analysis"),
+        ("MyPage_tabicon", "MyPage")
     ]
     
     var body: some View {
@@ -27,41 +27,46 @@ struct HomeView: View {
                 switch selectedTab {
                 case "Main":
                     MainView()
-                case "Search":
-                    SearchView()
+                case "Nutrition":
+                    NutritionView()
                 case "Analysis":
                     AnalysisView()
                 case "MyPage":
                     MyPageView()
                 default:
-                    SearchView() // 기본적으로 SearchView를 표시
+                    MainView()
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             
             Spacer()
-
+            
             // Bottom Tab Bar
-            HStack {
-                ForEach(tabs, id: \.1) { tab in
-                    Button(action: {
-                        selectedTab = tab.1
-                    }) {
-                        VStack {
-                            Image(systemName: tab.0)
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 21, height: 21)
-                            Text(tab.1)
-                                .font(.system(size: 9))
+            VStack(spacing: 0) {
+                Rectangle()
+                    .frame(height: 1)
+                    .foregroundColor(.gray1)
+                HStack {
+                    ForEach(tabs, id: \.1) { tab in
+                        Button(action: {
+                            selectedTab = tab.1
+                        }) {
+                            VStack {
+                                Image(tab.0)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 24, height: 24)
+                                Text(tab.1)
+                                    .font(.system(size: 9))
+                            }
+                            .foregroundColor(selectedTab == tab.1 ? Color("turquoise") : Color("subColor"))
                         }
-                        .foregroundColor(selectedTab == tab.1 ? Color("turquoise") : Color("subColor"))
+                        .frame(maxWidth: .infinity)
                     }
-                    .frame(maxWidth: .infinity)
                 }
+                .padding()
+                .background(Color.white)
             }
-            .padding()
-            .background(Color(UIColor.systemGray6))
         }
     }
 }

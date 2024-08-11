@@ -7,7 +7,19 @@
 
 import SwiftUI
 
+class SignInViewModel: ObservableObject {
+    let signInApple = SignInApple()
+    
+    func signInWithApple() async throws -> AppUser {
+        let appleResult = try await signInApple.startSignInWithAppleFlow()
+        return try await AuthManager.shared.signInWithApple(idToken: appleResult.idToken, nonce: appleResult.nonce)
+    }
+}
+
 struct SignInView: View {
+    @StateObject var viewModel = SignInViewModel()
+    
+    @Binding var appUser: AppUser?
     var body: some View {
         VStack(spacing: 10) {
             Spacer()
@@ -16,6 +28,15 @@ struct SignInView: View {
             Spacer()
                 .frame(maxHeight: 170)
             Button(action: {
+                Task {
+                    do {
+                        let appUser = try await viewModel.signInWithApple()
+                        self.appUser = appUser
+                        print("Signed in user: \(appUser.uid)")
+                    } catch {
+                        print("Error signing in: \(error)")
+                    }
+                }
             }) {
                 HStack(alignment: .center, spacing: 15) {
                     Image("apple_logo")
@@ -59,7 +80,6 @@ struct SignInView: View {
     }
 }
 
-
 #Preview {
-    SignInView()
+    SignInView(appUser: .constant(.init(uid: "1234", email: nil)))
 }
