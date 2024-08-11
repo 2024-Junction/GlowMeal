@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28509BE82C6730D10059B952 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28509BE72C6730D10059B952 /* HomeView.swift */; };
+		28509BEC2C673DB80059B952 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28509BEB2C673DB80059B952 /* AnalysisView.swift */; };
+		28509BEE2C673DC10059B952 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28509BED2C673DC10059B952 /* MainView.swift */; };
+		28509BF02C673DC90059B952 /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28509BEF2C673DC90059B952 /* MyPageView.swift */; };
+		6F1FE7CD2C67270C0051EAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7CC2C67270C0051EAD0 /* Assets.xcassets */; };
+		6F1FE7D02C67270C0051EAD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7CF2C67270C0051EAD0 /* Preview Assets.xcassets */; };
+		6F1FE7D82C6728C60051EAD0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 6F1FE7D72C6728C60051EAD0 /* GoogleSignIn */; };
+		6F1FE7DA2C6728C60051EAD0 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6F1FE7D92C6728C60051EAD0 /* GoogleSignInSwift */; };
+		6F1FE7E32C6730110051EAD0 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE7E22C6730110051EAD0 /* SignInView.swift */; };
+		6F1FE7E52C67309B0051EAD0 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7E42C67309B0051EAD0 /* Image.xcassets */; };
+		6F1FE7E72C6731910051EAD0 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7E62C6731910051EAD0 /* Color.xcassets */; };
+		6F1FE7F42C67322F0051EAD0 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE7F32C67322F0051EAD0 /* FontManager.swift */; };
+		6F1FE7F72C6739A30051EAD0 /* UserInfoInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE7F62C6739A30051EAD0 /* UserInfoInputView.swift */; };
+		6F1FE8032C67887E0051EAD0 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7FA2C67887E0051EAD0 /* Pretendard-SemiBold.otf */; };
+		6F1FE8042C67887E0051EAD0 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7FB2C67887E0051EAD0 /* Pretendard-ExtraLight.otf */; };
+		6F1FE8052C67887E0051EAD0 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7FC2C67887E0051EAD0 /* Pretendard-Medium.otf */; };
+		6F1FE8062C67887E0051EAD0 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7FD2C67887E0051EAD0 /* Pretendard-Thin.otf */; };
+		6F1FE8072C67887E0051EAD0 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7FE2C67887E0051EAD0 /* Pretendard-Light.otf */; };
+		6F1FE8082C67887E0051EAD0 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE7FF2C67887E0051EAD0 /* Pretendard-Regular.otf */; };
+		6F1FE8092C67887E0051EAD0 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE8002C67887E0051EAD0 /* Pretendard-Bold.otf */; };
+		6F1FE80A2C67887E0051EAD0 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE8012C67887E0051EAD0 /* Pretendard-Black.otf */; };
+		6F1FE80B2C67887E0051EAD0 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE8022C67887E0051EAD0 /* Pretendard-ExtraBold.otf */; };
+		6F1FE8452C6793D90051EAD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8442C6793D90051EAD0 /* ContentView.swift */; };
+		6F1FE8472C6793E00051EAD0 /* GlowMealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8462C6793DF0051EAD0 /* GlowMealApp.swift */; };
+		6F1FE8492C67BDD70051EAD0 /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8482C67BDD70051EAD0 /* CompareView.swift */; };
+		6F1FE84B2C67BFFE0051EAD0 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1FE84A2C67BFFE0051EAD0 /* Icon.xcassets */; };
+		6F1FE84F2C67D9630051EAD0 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE84C2C67CD9B0051EAD0 /* MoreInfoView.swift */; };
+		6F1FE8522C67DA750051EAD0 /* NutrientTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8512C67DA750051EAD0 /* NutrientTableView.swift */; };
+		6F1FE8562C67E7390051EAD0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8552C67E7390051EAD0 /* Test.swift */; };
+		6F1FE8582C67FE020051EAD0 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8572C67FE020051EAD0 /* NutritionView.swift */; };
+		6F1FE85A2C6804DE0051EAD0 /* NutritionMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8592C6804DE0051EAD0 /* NutritionMapView.swift */; };
+		6F1FE8642C680EF60051EAD0 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6F1FE8632C680EF60051EAD0 /* Supabase */; };
+		6F1FE8662C680F270051EAD0 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8652C680F270051EAD0 /* AuthManager.swift */; };
+		6F1FE8682C680F4E0051EAD0 /* SignInApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8672C680F4E0051EAD0 /* SignInApple.swift */; };
+		6F1FE86A2C680F6F0051EAD0 /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8692C680F6F0051EAD0 /* SupabaseManager.swift */; };
+		6F1FE86C2C68102D0051EAD0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE86B2C68102D0051EAD0 /* DataManager.swift */; };
+		6F1FE86E2C6813190051EAD0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE86D2C6813190051EAD0 /* LoadingView.swift */; };
+		6F1FE8712C681B330051EAD0 /* CheckUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8702C681B330051EAD0 /* CheckUpView.swift */; };
+		6F1FE8732C682E530051EAD0 /* NutrientRecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FE8722C682E520051EAD0 /* NutrientRecommendView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28509BE72C6730D10059B952 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		28509BEB2C673DB80059B952 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		28509BED2C673DC10059B952 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		28509BEF2C673DC90059B952 /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		6F1FE7C52C67270A0051EAD0 /* GlowMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1FE7CC2C67270C0051EAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F1FE7CF2C67270C0051EAD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F1FE7E22C6730110051EAD0 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		6F1FE7E42C67309B0051EAD0 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		6F1FE7E62C6731910051EAD0 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		6F1FE7F32C67322F0051EAD0 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		6F1FE7F52C6732640051EAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1FE7F62C6739A30051EAD0 /* UserInfoInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoInputView.swift; sourceTree = "<group>"; };
+		6F1FE7FA2C67887E0051EAD0 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		6F1FE7FB2C67887E0051EAD0 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		6F1FE7FC2C67887E0051EAD0 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		6F1FE7FD2C67887E0051EAD0 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		6F1FE7FE2C67887E0051EAD0 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		6F1FE7FF2C67887E0051EAD0 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		6F1FE8002C67887E0051EAD0 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		6F1FE8012C67887E0051EAD0 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		6F1FE8022C67887E0051EAD0 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		6F1FE8442C6793D90051EAD0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../GlowMeal 2/GlowMeal/ContentView.swift"; sourceTree = "<group>"; };
+		6F1FE8462C6793DF0051EAD0 /* GlowMealApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlowMealApp.swift; path = "../../../GlowMeal 2/GlowMeal/GlowMealApp.swift"; sourceTree = "<group>"; };
+		6F1FE8482C67BDD70051EAD0 /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
+		6F1FE84A2C67BFFE0051EAD0 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		6F1FE84C2C67CD9B0051EAD0 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
+		6F1FE8512C67DA750051EAD0 /* NutrientTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientTableView.swift; sourceTree = "<group>"; };
+		6F1FE8552C67E7390051EAD0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		6F1FE8572C67FE020051EAD0 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		6F1FE8592C6804DE0051EAD0 /* NutritionMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionMapView.swift; sourceTree = "<group>"; };
+		6F1FE8652C680F270051EAD0 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		6F1FE8672C680F4E0051EAD0 /* SignInApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInApple.swift; sourceTree = "<group>"; };
+		6F1FE8692C680F6F0051EAD0 /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		6F1FE86B2C68102D0051EAD0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		6F1FE86D2C6813190051EAD0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6F1FE86F2C6814A30051EAD0 /* GlowMeal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GlowMeal.entitlements; sourceTree = "<group>"; };
+		6F1FE8702C681B330051EAD0 /* CheckUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUpView.swift; sourceTree = "<group>"; };
+		6F1FE8722C682E520051EAD0 /* NutrientRecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientRecommendView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F1FE7C22C67270A0051EAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1FE7D82C6728C60051EAD0 /* GoogleSignIn in Frameworks */,
+				6F1FE7DA2C6728C60051EAD0 /* GoogleSignInSwift in Frameworks */,
+				6F1FE8642C680EF60051EAD0 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1FE7BC2C67270A0051EAD0 = {
+			isa = PBXGroup;
+			children = (
+				6F1FE7C72C67270A0051EAD0 /* GlowMeal */,
+				6F1FE7C62C67270A0051EAD0 /* Products */,
+				6F1FE85F2C680D290051EAD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F1FE7C62C67270A0051EAD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1FE7C52C67270A0051EAD0 /* GlowMeal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1FE7C72C67270A0051EAD0 /* GlowMeal */ = {
+			isa = PBXGroup;
+			children = (
+				6F1FE86F2C6814A30051EAD0 /* GlowMeal.entitlements */,
+				6F1FE7F52C6732640051EAD0 /* Info.plist */,
+				6F1FE8462C6793DF0051EAD0 /* GlowMealApp.swift */,
+				6F1FE86D2C6813190051EAD0 /* LoadingView.swift */,
+				6F1FE8442C6793D90051EAD0 /* ContentView.swift */,
+				6F1FE8702C681B330051EAD0 /* CheckUpView.swift */,
+				28509BE72C6730D10059B952 /* HomeView.swift */,
+				6F1FE86B2C68102D0051EAD0 /* DataManager.swift */,
+				28509BEF2C673DC90059B952 /* MyPageView.swift */,
+				28509BEB2C673DB80059B952 /* AnalysisView.swift */,
+				6F1FE7F32C67322F0051EAD0 /* FontManager.swift */,
+				6F1FE7F62C6739A30051EAD0 /* UserInfoInputView.swift */,
+				6F1FE7E22C6730110051EAD0 /* SignInView.swift */,
+				6F1FE85B2C6804ED0051EAD0 /* Nutrition */,
+				6F1FE8502C67DA0D0051EAD0 /* Main */,
+				6F1FE7E82C6731C30051EAD0 /* Fonts */,
+				6F1FE7CC2C67270C0051EAD0 /* Assets.xcassets */,
+				6F1FE7E62C6731910051EAD0 /* Color.xcassets */,
+				6F1FE7E42C67309B0051EAD0 /* Image.xcassets */,
+				6F1FE84A2C67BFFE0051EAD0 /* Icon.xcassets */,
+				6F1FE7CE2C67270C0051EAD0 /* Preview Content */,
+				6F1FE8552C67E7390051EAD0 /* Test.swift */,
+				6F1FE8692C680F6F0051EAD0 /* SupabaseManager.swift */,
+				6F1FE8652C680F270051EAD0 /* AuthManager.swift */,
+				6F1FE8672C680F4E0051EAD0 /* SignInApple.swift */,
+			);
+			path = GlowMeal;
+			sourceTree = "<group>";
+		};
+		6F1FE7CE2C67270C0051EAD0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F1FE7CF2C67270C0051EAD0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F1FE7E82C6731C30051EAD0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6F1FE7E92C6731D90051EAD0 /* Pretendard */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6F1FE7E92C6731D90051EAD0 /* Pretendard */ = {
+			isa = PBXGroup;
+			children = (
+				6F1FE8012C67887E0051EAD0 /* Pretendard-Black.otf */,
+				6F1FE8002C67887E0051EAD0 /* Pretendard-Bold.otf */,
+				6F1FE8022C67887E0051EAD0 /* Pretendard-ExtraBold.otf */,
+				6F1FE7FB2C67887E0051EAD0 /* Pretendard-ExtraLight.otf */,
+				6F1FE7FE2C67887E0051EAD0 /* Pretendard-Light.otf */,
+				6F1FE7FC2C67887E0051EAD0 /* Pretendard-Medium.otf */,
+				6F1FE7FF2C67887E0051EAD0 /* Pretendard-Regular.otf */,
+				6F1FE7FA2C67887E0051EAD0 /* Pretendard-SemiBold.otf */,
+				6F1FE7FD2C67887E0051EAD0 /* Pretendard-Thin.otf */,
+			);
+			path = Pretendard;
+			sourceTree = "<group>";
+		};
+		6F1FE8502C67DA0D0051EAD0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				28509BED2C673DC10059B952 /* MainView.swift */,
+				6F1FE8482C67BDD70051EAD0 /* CompareView.swift */,
+				6F1FE84C2C67CD9B0051EAD0 /* MoreInfoView.swift */,
+				6F1FE8512C67DA750051EAD0 /* NutrientTableView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6F1FE85B2C6804ED0051EAD0 /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				6F1FE8572C67FE020051EAD0 /* NutritionView.swift */,
+				6F1FE8592C6804DE0051EAD0 /* NutritionMapView.swift */,
+				6F1FE8722C682E520051EAD0 /* NutrientRecommendView.swift */,
+			);
+			path = Nutrition;
+			sourceTree = "<group>";
+		};
+		6F1FE85F2C680D290051EAD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F1FE7C42C67270A0051EAD0 /* GlowMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1FE7D32C67270C0051EAD0 /* Build configuration list for PBXNativeTarget "GlowMeal" */;
+			buildPhases = (
+				6F1FE7C12C67270A0051EAD0 /* Sources */,
+				6F1FE7C22C67270A0051EAD0 /* Frameworks */,
+				6F1FE7C32C67270A0051EAD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlowMeal;
+			packageProductDependencies = (
+				6F1FE7D72C6728C60051EAD0 /* GoogleSignIn */,
+				6F1FE7D92C6728C60051EAD0 /* GoogleSignInSwift */,
+				6F1FE8632C680EF60051EAD0 /* Supabase */,
+			);
+			productName = GlowMeal;
+			productReference = 6F1FE7C52C67270A0051EAD0 /* GlowMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F1FE7BD2C67270A0051EAD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6F1FE7C42C67270A0051EAD0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 6F1FE7C02C67270A0051EAD0 /* Build configuration list for PBXProject "GlowMeal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F1FE7BC2C67270A0051EAD0;
+			packageReferences = (
+				6F1FE7D62C6728C60051EAD0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				6F1FE8622C680EED0051EAD0 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = 6F1FE7C62C67270A0051EAD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F1FE7C42C67270A0051EAD0 /* GlowMeal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F1FE7C32C67270A0051EAD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1FE8092C67887E0051EAD0 /* Pretendard-Bold.otf in Resources */,
+				6F1FE8052C67887E0051EAD0 /* Pretendard-Medium.otf in Resources */,
+				6F1FE8042C67887E0051EAD0 /* Pretendard-ExtraLight.otf in Resources */,
+				6F1FE7D02C67270C0051EAD0 /* Preview Assets.xcassets in Resources */,
+				6F1FE8062C67887E0051EAD0 /* Pretendard-Thin.otf in Resources */,
+				6F1FE7E72C6731910051EAD0 /* Color.xcassets in Resources */,
+				6F1FE84B2C67BFFE0051EAD0 /* Icon.xcassets in Resources */,
+				6F1FE8032C67887E0051EAD0 /* Pretendard-SemiBold.otf in Resources */,
+				6F1FE7E52C67309B0051EAD0 /* Image.xcassets in Resources */,
+				6F1FE8082C67887E0051EAD0 /* Pretendard-Regular.otf in Resources */,
+				6F1FE80B2C67887E0051EAD0 /* Pretendard-ExtraBold.otf in Resources */,
+				6F1FE7CD2C67270C0051EAD0 /* Assets.xcassets in Resources */,
+				6F1FE80A2C67887E0051EAD0 /* Pretendard-Black.otf in Resources */,
+				6F1FE8072C67887E0051EAD0 /* Pretendard-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F1FE7C12C67270A0051EAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28509BEC2C673DB80059B952 /* AnalysisView.swift in Sources */,
+				28509BE82C6730D10059B952 /* HomeView.swift in Sources */,
+				6F1FE8492C67BDD70051EAD0 /* CompareView.swift in Sources */,
+				6F1FE86A2C680F6F0051EAD0 /* SupabaseManager.swift in Sources */,
+				6F1FE8562C67E7390051EAD0 /* Test.swift in Sources */,
+				28509BEE2C673DC10059B952 /* MainView.swift in Sources */,
+				28509BF02C673DC90059B952 /* MyPageView.swift in Sources */,
+				6F1FE7E32C6730110051EAD0 /* SignInView.swift in Sources */,
+				6F1FE8732C682E530051EAD0 /* NutrientRecommendView.swift in Sources */,
+				6F1FE84F2C67D9630051EAD0 /* MoreInfoView.swift in Sources */,
+				6F1FE8682C680F4E0051EAD0 /* SignInApple.swift in Sources */,
+				6F1FE8712C681B330051EAD0 /* CheckUpView.swift in Sources */,
+				6F1FE8452C6793D90051EAD0 /* ContentView.swift in Sources */,
+				6F1FE8662C680F270051EAD0 /* AuthManager.swift in Sources */,
+				6F1FE85A2C6804DE0051EAD0 /* NutritionMapView.swift in Sources */,
+				6F1FE86E2C6813190051EAD0 /* LoadingView.swift in Sources */,
+				6F1FE8522C67DA750051EAD0 /* NutrientTableView.swift in Sources */,
+				6F1FE86C2C68102D0051EAD0 /* DataManager.swift in Sources */,
+				6F1FE7F42C67322F0051EAD0 /* FontManager.swift in Sources */,
+				6F1FE8472C6793E00051EAD0 /* GlowMealApp.swift in Sources */,
+				6F1FE7F72C6739A30051EAD0 /* UserInfoInputView.swift in Sources */,
+				6F1FE8582C67FE020051EAD0 /* NutritionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F1FE7D12C67270C0051EAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F1FE7D22C67270C0051EAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F1FE7D42C67270C0051EAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GlowMeal/GlowMeal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlowMeal/Preview Content\"";
+				DEVELOPMENT_TEAM = 673A76UU5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlowMeal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlazeUnity.GlowMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F1FE7D52C67270C0051EAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GlowMeal/GlowMeal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlowMeal/Preview Content\"";
+				DEVELOPMENT_TEAM = 673A76UU5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlowMeal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlazeUnity.GlowMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F1FE7C02C67270A0051EAD0 /* Build configuration list for PBXProject "GlowMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1FE7D12C67270C0051EAD0 /* Debug */,
+				6F1FE7D22C67270C0051EAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1FE7D32C67270C0051EAD0 /* Build configuration list for PBXNativeTarget "GlowMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1FE7D42C67270C0051EAD0 /* Debug */,
+				6F1FE7D52C67270C0051EAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F1FE7D62C6728C60051EAD0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		6F1FE8622C680EED0051EAD0 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F1FE7D72C6728C60051EAD0 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F1FE7D62C6728C60051EAD0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		6F1FE7D92C6728C60051EAD0 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F1FE7D62C6728C60051EAD0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		6F1FE8632C680EF60051EAD0 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F1FE8622C680EED0051EAD0 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6F1FE7BD2C67270A0051EAD0 /* Project object */;
+}
