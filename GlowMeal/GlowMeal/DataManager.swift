@@ -66,7 +66,7 @@ class DataManager: ObservableObject {
             DispatchQueue.main.async {
                 self.userInfo = userInfo
             }
-            
+            print(userInfo.birth_date)
             return userInfo
         } catch {
             print("Failed to fetch user info: \(error.localizedDescription)")

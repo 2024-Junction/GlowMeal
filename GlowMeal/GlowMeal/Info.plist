@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>SUPABASE_KEY</key>
 	<string>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ1Znh2dnF3eWVmeGhoZ2pycm9iIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjMzMjQxNjksImV4cCI6MjAzODkwMDE2OX0.KuXEUgsLFcX1y6z1GT3AhWjyMoRuVKYPoIe3_Cu0BwA</string>
 	<key>SUPABASE_URL</key>
